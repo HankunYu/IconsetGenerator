@@ -62,8 +62,8 @@
 					<string>for f in "$@"
 	do
 	# get file path
-	fileName=$(basename ${f})
-	filePath=$(dirname ${f})
+	fileName=$(basename "${f}")
+	filePath=$(dirname "${f}")
 
 	# create outputpath
 	mkdir -p "${filePath}/Icon.iconset"
@@ -193,7 +193,7 @@ done
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>370.000000:305.000000</string>
+				<string>370.000000:544.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>

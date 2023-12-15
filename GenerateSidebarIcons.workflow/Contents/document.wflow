@@ -62,8 +62,8 @@
 					<string>for f in "$@"
 	do
 	# get file path
-	fileName=$(basename ${f})
-	filePath=$(dirname ${f})
+	fileName=$(basename "${f}")
+	filePath=$(dirname "${f}")
 
 	# create outputpath
 	mkdir -p "${filePath}/Icon.iconset"
